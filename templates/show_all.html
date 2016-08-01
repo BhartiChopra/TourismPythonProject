@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+      <title>Payment Successful</title>
+   </head>
+   <style type="text/css">
+   .result{
+      position: absolute;
+      width: 40%;
+      background-color: #493829;
+      border: 2px solid black;
+      padding: 2rem;
+      margin: 50px 0 0 30%;
+      text-align: center;
+      color: white;
+      font-family: helvetica, arial,sans-serif;
+      z-index: 1500;
+      text-align: center;
+   }
+
+   h1{
+      font-family: helvetica, arial,sans-serif;
+      font-size: 3rem;
+      color: orange;
+   }
+   h2{
+      font-family: helvetica, arial,sans-serif;
+      font-size: 3rem;
+      color: white;
+   }
+
+   table{
+      border: 2px solid white;
+      color: white;
+   }
+   a{
+      text-decoration: none;
+      color: white;
+   }
+   </style>
+   <body>
+      
+     <div class="result">
+         <h1>
+       Book here (<a href = "{{ url_for('show') }}">Book more</a>)
+      </h1>
+      
+      <hr/>
+      {%- for message in get_flashed_messages() %}
+         {{ message }}
+      {%- endfor %}
+      
+      <h2> Payment Done Successfully !!
+         </a>)</h2>
+         <h3>You will recieve mail for confirmation !!</h3>
+      
+      <table>
+         <thead>
+            <tr>
+               <th>Name</th>
+               <th>Last</th>
+               <th>Email</th>
+             </tr>
+         </thead>
+         
+         <tbody>
+            {% for person in person %}
+               <tr>
+                  
+                  <td>{{ person.fname }}</td>
+                  <td>{{ person.lname }}</td>
+                  <td>{{person.email}}</td>
+                </tr>
+            {% endfor %}
+         </tbody>
+      </table>
+      
+     </div>
+   </body>
+</html>

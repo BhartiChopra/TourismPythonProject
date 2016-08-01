@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tourism</title>
+	<link rel="stylesheet" type="text/css" href="../static/styles.css">
+	<link rel="stylesheet" href="../static/icomoon/style.css">
+</head>
+<body>
+	<div class="main">
+		<header>
+			<h1>VacationB&B</h1>
+			<nav>
+				<ul class="navigation">
+					<li><a href="{{url_for('show')}}">Home</a></li>
+					<!-- <li><a href="{{url_for('account')}}">Stay in Vacouver</a></li> -->
+					<li><a href="{{url_for('van')}}">Stay in Vacouver</a></li>
+					<li><a href="{{url_for('vic')}}">Stay in Victoria</a></li>
+					<li><a href="#abt">About Us</a></li>
+					<li><a href="#cntct">Conatct Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="quote">
+			<h1>Welcome to Home</h1>
+			<h2>Away From Your Home</h2>
+			<p>Lets Stay at the Beautiful Location and feel Like Home !!</p>
+		</div>
+		<div class="checkin">
+			<form class="search-room">
+				<div>
+					<h3>Location</h3>
+					<input type="text" name="location" placeholder="  Enter Your Place">		
+				</div>
+				<div>
+					<h3>Check In</h3>
+					<input type="date" name="checkin">		
+				</div>
+
+				<div>
+					<h3>Check Out</h3>
+					<input type="date" name="checkout">
+				</div>
+				<div>
+					<h3>Adults</h3>
+					<input type="number" name="quantity"  min="0" placeholder=" 0">
+				</div>
+				<div>
+					<h3>Kids</h3>
+					<input type="number" name="quantity"  min="0" placeholder=" 0">
+				</div>
+
+				<div id="srch">
+					<input type="submit" name="submit" value="SEARCH">
+				</div>
+
+			</form>
+		</div>
+		<div class="next-button">
+			<i class="icon-chevron-down hidden">AC</i>
+		</div>
+	</div>
+	<div class="about" id="abt">
+		<h1>Our Appartments</h1>
+		<div>
+
+		<p>
+			We are working from last five years. We provide you the best home/rooms to stay nearest the tourist
+
+spot. Our apartments make you feel as you are living in your own home. We offer you reasonable
+
+prices; and your holidays more enjoyable and comfortable.
+		</p>
+		<p>
+			We always feel happy to providing you facilities that you required to spend your vacation. The
+
+locations that we offer you to stay are always near to beach, sea, and downtown. Our goal is always
+
+to make it easy for renters to find and live in a place they love.
+		</p>
+		<img src="../static/images/home-663234_1280.jpg" width="400" height="320">
+	</div>
+		
+	</div>
+	<div class="services">
+		<h2>Our Services</h2>
+		<div class="classification">
+			<div class="selection">
+				<i class="icon-connection hidden">WIFI</i>
+				<h3>FREE WIFI</h3>
+				
+			</div>
+			<div class="selection">
+				<i class="icon-lamp hidden">FURNISHED</i>
+				<h3>FULLY FURNISHED</h3>
+			</div>
+			<div class="selection">
+				<i class="icon-spoon-knife hidden">FOOD</i>
+				<h3>FOOD</h3>
+				
+			</div>
+			<div class="selection">
+				<i class="icon-airplane hidden">AIRPORT</i>
+				<h3>AIRPORT TRANSFER</h3>
+			</div>
+			<div class="selection">
+				<i class="icon-paint-format hidden">CLEANING</i>
+				<h3>CLEANING SERVICES</h3>
+			</div>
+			<div class="selection">
+				<i class="icon-snowflake hidden">AC</i>
+				<h3>AIR CONDITIONING</h3>
+			</div>
+		</div>
+	</div>
+	<div class="vancouver">
+		<div class="description">
+			<h1>Stay in Vancouver</h1>
+			<p>Vancouver, a bustling west coast seaport in British Columbia, is among Canada’s densest, most ethnically diverse cities. A popular filming location, it’s surrounded by mountains and invites outdoor pursuits of all kinds, but also has thriving art, theatre and music scenes. Vancouver Art Gallery is known for its works by regional artists, while the Museum of Anthropology houses preeminent First Nations collections.
+			</p>
+			<p>It is beautiful in Vancouver; let's face it. I mean, you have the ocean. There's mountains. “Eric Close”</p>
+			<p>I love just how beautiful Vancouver is. I mean, everywhere you look it's just mountains and ocean. “Emma Bell”</p>
+			<button><a href="{{url_for('van')}}">Book Now</a></button>
+		</div>
+		<div class="videos">
+			<iframe width="560" height="400" src="https://www.youtube.com/embed/UmBGghx1db4" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="victoria">
+		<div class="videos">
+			<iframe width="560" height="400" src="https://www.youtube.com/embed/45ejFm2vRT4" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="description">
+			<h1>Stay in Victoria</h1>
+			<p>Victoria, capital of British Columbia, sits on the craggy southern end of Vancouver Island. With a mild climate and an abundance of trails and parks – including sprawling, amusement-filled Beacon Hill – it’s a destination for outdoor activities. Its beginnings as a British colony show in its Victorian architecture, such as stately Craigdarroch Castle mansion, as well as in its many formal gardens.
+			</p>
+			<p>“The mountains are calling and I must Go.”</p>
+			<p>“ It leaves you SPEECHLESS; then turns you into a STORYTELLER.”</p>
+			<button><a href="{{url_for('vic')}}">Book Now</a></button>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="details" id="cntct">
+			<div>
+				<h3>Call us to Book</h3>
+				<p>+1(604)704-0000</p>
+			</div>
+			<div>
+				<h3>Follow us</h3>
+				<a href="#"><i class="icon-facebook-with-circle hidden">f</i></a>
+				<a href="#"><i class="icon-twitter-with-circle hidden">t</i></a>
+				<a href="#"><i class="icon-instagram hidden">i</i></a>
+				<a href="#"><i class="icon-pinterest-with-circle hidden">p</i></a>
+			</div>
+			<div>
+				<h3>Subscribe for Updates</h3>
+				<input type="text" name="email" placeholder="Enter your Email">
+				<input type="submit" name="subscribe" value="Subscribe">
+			</div>
+		</div>
+		<small>&COPY; 2016 by BC</small><br>
+		<small>Created by Touristers</small>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../static/harshstyles.css">
+	<title>Document</title>
+
+
+<body>
+	<div class="wrapper">
+		<div class="transaction">
+			<span id="close"><a href="{{url_for('show')}}">&times;</a></span>
+			<h1>Book Your Home</h1>
+		<!-- <a href="{{url_for('new')}}"></a> -->
+		<form name="myForm" method="post" action="">
+
+			<h2>Personal Details</h2>
+			<div class="fill">
+			<input type="text" name="fname" placeholder="First Name"><br>
+			<input type="text" name="lname" placeholder="Last Name"><br>
+			<input type="text" name="phone" placeholder="Phone"><br>
+			<input type="text" name="email" placeholder="Email"><br>
+			</div>
+			<h2>Card Details</h2>
+			<div class="fill">
+			<input type="text" name="card" placeholder="Card Number"><br>
+			<input type="text" name="cvv" placeholder="CVV number"><br>
+			<input type="number" name="date"  min="1" placeholder="Date">
+			<input type="number" name="month"  min="1" placeholder="Month"><br>
+			<input type="text" name="Ncard" placeholder="Name on Card"><br>
+			</div>
+			<input type="submit" name="pay" value="Payment">
+			<a  class="cancel" href="{{url_for('show')}}"> Cancel </a>
+	
+		</form>
+	</div>
+
+	
+	</div>
+</body>
+</html>

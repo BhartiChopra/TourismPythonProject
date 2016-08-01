@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tourism</title>
+	<!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+	<link rel="stylesheet" type="text/css" href="../static/harshstyles.css">
+	<link rel="stylesheet" href="../static/icomoon/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+	
+	<div class="main2">
+		<header>
+			<h1>VacationB&B</h1>
+			<nav>
+				<ul class="navigation">
+					<li><a href="{{url_for('show')}}">Home</a></li>
+					<!-- <li><a href="{{url_for('account')}}">Stay in Vacouver</a></li> -->
+					<li><a href="{{url_for('van')}}">Stay in Vacouver</a></li>
+					<li><a href="{{url_for('vic')}}">Stay in Victoria</a></li>
+					<li><a href="#abt">About Us</a></li>
+					<li><a href="#cntct">Conatct Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="search">
+					<form class="search_form">
+					<div>
+						<h3>Location</h3>
+						<input type="text" name="location" placeholder="  Enter Your Place">		
+					</div>
+					<div>
+						<h3>Check In</h3>
+						<input type="date" name="checkin">		
+					</div>
+
+					<div>
+						<h3>Check Out</h3>
+						<input type="date" name="checkout">
+					</div>
+					<div>
+						<h3>Adults</h3>
+						<input type="number" name="quantity"  min="0" placeholder=" 0">
+					</div>
+					<div>
+						<h3>Kids</h3>
+						<input type="number" name="quantity"  min="0" placeholder=" 0">
+					</div>
+
+					<div id="srch">
+						<input type="submit" name="submit" value="SEARCH">
+					</div>
+
+				</form>
+
+			</div>
+			</div>
+
+
+
+
+		<div class='harsh1'>
+		<div class="resort_info">
+			<p class="heading"> Our Homes</p>
+		</div>
+		
+
+			<div class="resort_info">
+
+				<div class="room_img">
+					<img src="../static/images/home-663234_1280.jpg" width="100%">
+				</div>
+
+				<div class="room_info1">	
+								<div class="room_info2">
+									<h1 id="room_name">Beach Side</h1>
+									<p id="room_desc"> Our this home nearby beach gives offer breathtaking views of the ocean skyline/p>
+									<ul id="room_features">
+										<li id="features">Accomodation: 4</li>
+										<li id="features">Size: 1500sq ft</li>
+										<li id="features">Beds: 3 double</li>
+										<li id="features">Location: Vancouver</li>
+									</ul>
+									
+								</div >
+								<div class="room_icons">
+									<div class="classification">
+										<div class="selection1">
+											<i class="icon-connection hidden "></i>
+																
+										</div>
+										<div class="selection1">
+											<i class="icon-lamp hidden "></i>
+																					</div>
+										<div class="selection1">
+											<i class="icon-spoon-knife hidden "></i>
+											
+										</div>
+										<div class="selection1">
+											<i class="icon-airplane hidden "></i>
+											
+										</div>
+										<div class="selection1">
+											<i class="icon-paint-format hidden "></i>
+											>
+										</div>
+										<div class="selection1">
+											<i class="icon-snowflake hidden "></i>
+											
+										</div>
+									</div>
+										
+								</div>
+				</div>
+
+
+				<div class="room_price">
+				<div><h3>Price</h3>
+					<h1>$500</h1></div>
+				<div>
+					
+					<button class="more_info"><a href="{{url_for('account')}}">Book Now</a></button></div>
+					
+				</div>
+					
+			</div>
+
+
+
+<div class="resort_info">
+
+				<div class="room_img">
+					<img src="../static/images/home-1416376_1920.jpg" width="100%">
+				</div>
+
+				<div class="room_info1">	
+								<div class="room_info2">
+									<h1 id="room_name">Downtown Home</h1>
+									<p id="room_desc"> Our this home nearby beach gives you the skyline view of the whole city with full enjoyment.</p>
+									<ul id="room_features">
+										<li id="features">Accomodation: 4</li>
+										<li id="features">Size: 1500sq ft</li>
+										<li id="features">Beds: 3 double</li>
+										<li id="features">Location: Vancouver</li>
+									</ul>
+									
+								</div >
+								<div class="room_icons">
+									<div class="classification">
+										<div class="selection1">
+											<i class="icon-connection hidden "></i>
+																
+										</div>
+										<div class="selection1">
+											<i class="icon-lamp hidden "></i>
+										</div>
+										
+										<div class="selection1">
+											<i class="icon-spoon-knife hidden "></i>
+											
+										</div>
+										
+										<div class="selection1">
+											<i class="icon-airplane hidden "></i>
+											
+										</div>
+										
+										<div class="selection1">
+											<i class="icon-paint-format hidden "></i>
+											>
+										</div>
+										
+										<div class="selection1">
+											<i class="icon-snowflake hidden "></i>
+											
+										</div>
+									</div>
+										
+								</div>
+						</div>
+
+
+				<div class="room_price">
+				<div><h3>Price</h3>
+					<h1>$700</h1></div>
+				<div>
+					<button class="more_info"><a href="{{url_for('account')}}">Book Now</a></button></div>
+					
+				</div>
+					
+			</div>
+
+
+
+<div class="resort_info">
+
+				<div class="room_img">
+					<img src="../static/images/bedroom-389254_960_720.jpg" width="100%">
+				</div>
+
+				<div class="room_info1">	
+								<div class="room_info2">
+									<h1 id="room_name">Luxury Bungalow</h1>
+									<p id="room_desc"> Our this home nearby beach gives gives the luxury experience giving extreme comfort...</p>
+									<ul id="room_features">
+										<li id="features">Accomodation: 4</li>
+										<li id="features">Size: 1500sq ft</li>
+										<li id="features">Beds: 3 double</li>
+										<li id="features">Location: Vancouver</li>
+									</ul>
+									
+								</div >
+								<div class="room_icons">
+									<div class="classification">
+										<div class="selection1">
+											<i class="icon-connection hidden "></i>
+																
+										</div>
+										<div class="selection1">
+											<i class="icon-lamp hidden "></i>
+																					</div>
+										<div class="selection1">
+											<i class="icon-spoon-knife hidden "></i>
+											
+										</div>
+										<div class="selection1">
+											<i class="icon-airplane hidden "></i>
+											
+										</div>
+										<div class="selection1">
+											<i class="icon-paint-format hidden "></i>
+											>
+										</div>
+										<div class="selection1">
+											<i class="icon-snowflake hidden "></i>
+											
+										</div>
+									</div>
+										
+								</div>
+				</div>
+
+
+				<div class="room_price">
+				<div><h3>Price</h3>
+					<h1>$800</h1></div>
+				<div>
+					<button class="more_info"><a href="{{url_for('account')}}">Book Now</a></button></div>
+					
+				</div>
+					
+			</div>
+	
+		</div>
+		
+	
+	
+
+
+	<footer>
+		<div class="details" id="cntct">
+			<div>
+				<h3>Call us to Book</h3>
+				<p>+1(604)704-0000</p>
+			</div>
+			<div>
+				<h3>Follow us</h3>
+				<a href="#"><i class="icon-facebook-with-circle hidden">f</i></a>
+				<a href="#"><i class="icon-twitter-with-circle hidden">t</i></a>
+				<a href="#"><i class="icon-instagram hidden">i</i></a>
+				<a href="#"><i class="icon-pinterest-with-circle hidden">p</i></a>
+			</div>
+			<div>
+				<h3>Subscribe for Updates</h3>
+				<input type="text" name="email" placeholder="Enter your Email">
+				<input type="submit" name="subscribe" value="Subscribe">
+			</div>
+		</div>
+		<small>&COPY; 2016 by BC</small><br>
+		<small>Created by Touristers</small>
+	</footer>
+
+	
+	
+<!-- 	// $(document).ready(function(){
+	// 	$('.more_info').click(function(){
+	// 		$('.wrapper').fadeIn();
+	// 		$('.transaction').fadeIn();
+	// 		return false;
+	// 	});
+
+	// 	$('#close').click(function(){
+	// 		$('.wrapper').fadeOut();
+	// 		$('.transaction').fadeOut();
+	// 		return false;
+	// 	});
+	// });
+ -->
+
+</body>
+</html>

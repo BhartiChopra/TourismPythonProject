@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+      <title>Payment Successful</title>
+   </head>
+   <style type="text/css">
+   .result{
+      position: absolute;
+      width: 40%;
+      background-color: #493829;
+      border: 2px solid black;
+      padding: 2rem;
+      margin: 50px 0 0 30%;
+      text-align: center;
+      color: white;
+      font-family: helvetica, arial,sans-serif;
+      z-index: 1500;
+      text-align: center;
+   }
+
+   h1{
+      font-family: helvetica, arial,sans-serif;
+      font-size: 3rem;
+      color: orange;
+   }
+   h2{
+      font-family: helvetica, arial,sans-serif;
+      font-size: 3rem;
+      color: white;
+   }
+
+   a{
+      text-decoration: none;
+      color: white;
+   }
+   </style>
+   <body>
+      
+     <div class="result">
+      
+      
+      <h1> Payment Done Successfully !!
+         </a>)</h1>
+         <h2>You will recieve mail for confirmation !!</h2><br><br>
+       <h3>
+       For more bookings (<a href = "{{ url_for('show') }}">Click here</a>)
+      </h3>
+      
+     </div>
+   </body>
+</html>
