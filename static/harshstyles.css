@@ -1,0 +1,542 @@
+Fonts==============================*/
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,500,700,900|Montserrat:400,700|Quicksand:400,700|Hind+Vadodara|Open+Sans:400,700,800,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700|Lato:400,700,900|Oswald:400,700|Open+Sans+Condensed:300,700|Fjalla+One);
+/*Typography==============================*/
+@font-face {
+    font-family: 'icomoon';
+    src:    url('icomoon/fonts/icomoon.eot?znpx');
+    src:    url('icomoon/fonts/icomoon.eot?znpx#iefix') format('embedded-opentype'),
+        url('icomoon/fonts/icomoon.ttf?znpx') format('truetype'),
+        url('icomoon/fonts/icomoon.woff?znpx') format('woff'),
+        url('icomoon/fonts/icomoon.svg?znpx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tv:before {
+    content: "\e905";
+}
+.icon-earth:before {
+    content: "\e906";
+}
+.icon-snowflake:before {
+    content: "\e907";
+    font-family: "icomoon";
+    font-size: 1rem;
+}
+.icon-play-circle-o:before {
+    content: "\f01d";
+}
+.icon-credit-card:before {
+    content: "\f09d";
+}
+.icon-hand-o-right:before {
+    content: "\f0a4";
+}
+.icon-hand-o-left:before {
+    content: "\f0a5";
+}
+.icon-hand-o-down:before {
+    content: "\f0a7";
+}
+.icon-product-hunt:before {
+    content: "\f288";
+}
+.icon-forkandknife:before {
+    content: "\e908";
+}
+.icon-chevron-down:before {
+    content: "\f0a3";
+    font-family: "icomoon";
+    font-size: 1rem;
+}
+.icon-chevron-left:before {
+    content: "\f0a8";
+    font-family: "icomoon";
+    font-size: 1rem;
+}
+.icon-chevron-right:before {
+    content: "\f078";
+    font-family: "icomoon";
+    font-size: 1rem;
+}
+.icon-chevron-up:before {
+    content: "\f0a2";
+    font-family: "icomoon";
+    font-size: 1rem;
+}
+.icon-three-bars:before {
+    content: "\f05e";
+}
+.icon-paint-format:before {
+    content: "\e90c";
+    font-family: "icomoon";
+    font-size: 1rem;
+}
+.icon-connection:before {
+    content: "\e91b";
+    font-family: "icomoon";
+    font-size: 1rem;
+}
+.icon-search:before {
+    content: "\e986";
+}
+.icon-spoon-knife:before {
+    content: "\e9a3";
+    font-family: "icomoon";
+    font-size: 1rem;
+}
+.icon-airplane:before {
+    content: "\e9af";
+    font-family: "icomoon";
+    font-size: 1rem;
+}
+.icon-arrow-with-circle-left:before {
+    content: "\e909";
+}
+.icon-arrow-with-circle-right:before {
+    content: "\e90a";
+}
+.icon-share:before {
+    content: "\e90b";
+}
+.icon-facebook-with-circle:before {
+    content: "\e900";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-google-with-circle:before {
+    content: "\e901";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-instagram:before {
+    content: "\e90d";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-linkedin-with-circle:before {
+    content: "\e902";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-pinterest-with-circle:before {
+    content: "\e903";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-twitter-with-circle:before {
+    content: "\e904";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-cancel:before {
+    content: "\e90e";
+}
+.icon-cancel2:before {
+    content: "\e90f";
+}
+.icon-trashcan:before {
+    content: "\e910";
+}
+.icon-washingmachine:before {
+    content: "\e911";
+}
+.icon-lamp:before{
+    content: "\e912";
+    font-family: "icomoon";
+    font-size: 1rem;
+}
+.icon-safe:before {
+    content: "\e913";
+}
+.hidden{
+	font-size: 0;
+}
+
+
+/*inside icons*/
+
+
+i.icon-snowflake:before,
+.icon-forkandknife:before,
+.icon-paint-format:before,
+.icon-connection:before,
+.icon-spoon-knife:before,
+.icon-airplane:before,
+.icon-lamp:before{
+	font-size: 1.5rem;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+}
+
+h1{
+	font-family: "Quicksand", helvetica, arial, sans-serif;
+	font-size: 3rem;
+	font-weight: 400;
+	}
+
+body{
+	font-family: "Lato", helvetica, arial, sans-serif;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.2rem;
+}
+h3{
+
+	font-size: 2rem;
+
+}
+.main{
+	background-image: url("images/vancouver-389385_1920.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+
+}
+.main1{
+	background-image: url("images/london-1335477_1920.jpg");
+	background-size: cover;
+	height: 50vh;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+
+}
+.main2{
+	background-image: url("images/water-1169646_1920.jpg");
+	background-size: cover;
+	height: 50vh;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+nav ul li{
+	list-style-type: none;
+	padding: 1rem;
+	margin-right: auto;
+	margin-top: 0;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 1rem;
+	font-family: "Lato", helvetica, arial, sans-serif;
+
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	text-align: center;
+	background-color: #2f2e2e;
+	color: white;
+}
+
+
+.search_form{
+	margin-top: 7rem;
+	position: relative;
+	/*margin-top: 50vh;*/
+	padding: 1rem;
+	background-color: rgba(0,0,0,0.7);
+	/*margin-bottom: 1rem;
+	padding-bottom: .5rem;*/
+	display: flex;
+	
+	justify-content: space-around;
+	padding-bottom: 5%;
+}
+
+.search_form input[type="number"],input[type="text"]{
+width: 95%;
+height: 2rem;
+}
+
+.search_form input[type="date"]{
+height: 2.15rem;
+width: 92.5%;
+}
+#srch input[type="submit"]{
+background-color:#bc9364;
+color:white;
+width: 100%;
+text-align: center;
+border: #bc9364;
+font-size: 1rem;
+height: 2.4rem;
+
+
+}
+#srch{
+	align-self: flex-end;
+}
+
+
+form div h3{
+
+padding:0.5rem;
+font-size: 1rem;
+font-family: "Lato", helvetica, arial, sans-serif;
+font-weight: 400;
+color: white;
+}
+
+.harsh1{
+	width: 70%;
+	margin: auto;
+	
+}
+.resort_info{	
+	border-bottom: 1px solid grey;
+	padding: 5% 0;
+	display: flex;
+	justify-content: space-between;
+
+}
+.room_info1{
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	
+}
+
+
+.heading{
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+#room_features{
+	margin-left: -23px;
+}
+#room_name{
+	padding: 0;
+	margin-top: 0;
+}
+.room_icons{
+	border-top:1px solid grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.room_img{
+	width: 35%;
+}
+.room_price{
+	text-align: center;
+	display: flex;
+	width: 15%;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.room_price h1{
+	color: orange;
+	font-size: 3rem;
+}
+.classification{
+	display: flex;
+	font-size: 0px;
+
+}
+.icon-size{
+	font-size: 2rem;
+
+}
+.selection1{
+	margin: 10%;
+	
+}
+.more_info{
+	border: none;
+	background-color: #580101;
+	color: white;
+	font-size: 1.4rem;
+	width: 80%;
+	height: 3rem;
+	margin-bottom: 6rem;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+}
+.copyright{
+	padding-top: 2%;
+}
+.details{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	font-size: 1.3rem;
+	font-family: "Lato", helvetica, arial, sans-serif;
+	font-weight: lighter;
+	margin-bottom: 2rem;
+}
+
+.details h3{
+	font-size: 1.3rem;
+	font-family: "Quicksand", helvetica, arial, sans-serif;
+
+}
+
+.details p{
+	margin-top: 0;
+}
+
+.details input[type="submit"] {
+	margin-left: .5rem;
+background-color:#ffffff;
+color:black;
+width:130px;
+height:37px;
+border: #ffffff;
+font-size: 1.2rem;
+}
+
+.details input[type="text"]{
+width: 60%;
+height: 2rem;
+}
+/*transaction==========================*/
+.wrapper{
+		position: fixed;
+		width: 100%;
+		height:200vh;
+		background-color: rgba(0,0,0,.7);
+		top: 0;
+		left: 0;
+		z-index: 1000;
+		cursor: pointer;
+		/*display: none;	*/
+	}
+	#close{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		border: 2px solid white;
+		text-align: center;
+		font-size: 40px;
+		float: right;
+	}
+	.transaction{
+		position: absolute;
+		width: 40%;
+		background-color: #493829;
+		border: 2px solid white;
+		padding: 2rem;
+		margin: 50px 0 0 30%;
+		text-align: center;
+		color: white;
+		font-family: helvetica, arial,sans-serif;
+		z-index: 1500;
+		/*display: none;*/
+	}
+
+	.transaction form input[type="text"]{
+		width: 80%;
+		height: 40px;
+		margin-bottom: 1rem;;
+	}
+	.transaction form input[type="submit"]{
+		width: 40%;
+		height: 40px;
+		font-size: 1.5rem;
+		background-color: rgb(220,220,220);
+		border: 2px solid gray;
+		color: black;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.cancel{
+		width: 40%;
+		height: 40px;
+		font-size: 1.5rem;
+		background-color: rgb(220,220,220);
+		border: 2px solid gray;
+		color: black;
+		padding-top: .3rem;
+		padding-bottom: .3rem;
+		padding-left: 6.5rem;
+		padding-right: 6.5rem;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		margin-bottom: 2rem;
+	}
+	.transaction form input[type="number"]{
+		width: 37%;
+		height: 40px;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+	}
+	.transaction form h2{
+		text-align: left;
+	}
+	::-webkit-input-placeholder {
+   color: gray;
+   font-size: 1.3rem;
+   padding-left: 1rem;
+}
+.fill{
+	background-color: rgba(0,0,0,0.2);
+	margin-bottom: 1rem;
+	padding-top:1rem;
+}

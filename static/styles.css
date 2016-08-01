@@ -1,0 +1,584 @@
+Fonts==============================*/
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,500,700,900|Montserrat:400,700|Quicksand:400,700|Hind+Vadodara|Open+Sans:400,700,800,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700|Lato:400,700,900|Oswald:400,700|Open+Sans+Condensed:300,700|Fjalla+One);
+/*Typography==============================*/
+@font-face {
+    font-family: 'icomoon';
+    src:    url('icomoon/fonts/icomoon.eot?znpx');
+    src:    url('icomoon/fonts/icomoon.eot?znpx#iefix') format('embedded-opentype'),
+        url('icomoon/fonts/icomoon.ttf?znpx') format('truetype'),
+        url('icomoon/fonts/icomoon.woff?znpx') format('woff'),
+        url('icomoon/fonts/icomoon.svg?znpx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-tv:before {
+    content: "\e905";
+}
+.icon-earth:before {
+    content: "\e906";
+}
+.icon-snowflake:before {
+    content: "\e907";
+    font-family: "icomoon";
+    font-size: 4rem;
+}
+.icon-play-circle-o:before {
+    content: "\f01d";
+}
+.icon-credit-card:before {
+    content: "\f09d";
+}
+.icon-hand-o-right:before {
+    content: "\f0a4";
+}
+.icon-hand-o-left:before {
+    content: "\f0a5";
+}
+.icon-hand-o-down:before {
+    content: "\f0a7";
+}
+.icon-product-hunt:before {
+    content: "\f288";
+}
+.icon-forkandknife:before {
+    content: "\e908";
+}
+.icon-chevron-down:before {
+    content: "\f0a3";
+    font-family: "icomoon";
+    font-size: 5rem;
+}
+.icon-chevron-left:before {
+    content: "\f0a8";
+    font-family: "icomoon";
+    font-size: 4rem;
+}
+.icon-chevron-right:before {
+    content: "\f078";
+    font-family: "icomoon";
+    font-size: 4rem;
+}
+.icon-chevron-up:before {
+    content: "\f0a2";
+    font-family: "icomoon";
+    font-size: 4rem;
+}
+.icon-three-bars:before {
+    content: "\f05e";
+}
+.icon-paint-format:before {
+    content: "\e90c";
+    font-family: "icomoon";
+    font-size: 4rem;
+}
+.icon-connection:before {
+    content: "\e91b";
+    font-family: "icomoon";
+    font-size: 4rem;
+}
+.icon-search:before {
+    content: "\e986";
+}
+.icon-spoon-knife:before {
+    content: "\e9a3";
+    font-family: "icomoon";
+    font-size: 4rem;
+}
+.icon-airplane:before {
+    content: "\e9af";
+    font-family: "icomoon";
+    font-size: 4rem;
+}
+.icon-arrow-with-circle-left:before {
+    content: "\e909";
+}
+.icon-arrow-with-circle-right:before {
+    content: "\e90a";
+}
+.icon-share:before {
+    content: "\e90b";
+}
+.icon-facebook-with-circle:before {
+    content: "\e900";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-google-with-circle:before {
+    content: "\e901";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-instagram:before {
+    content: "\e90d";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-linkedin-with-circle:before {
+    content: "\e902";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-pinterest-with-circle:before {
+    content: "\e903";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-twitter-with-circle:before {
+    content: "\e904";
+    font-family: "icomoon";
+    font-size: 2rem;
+}
+.icon-cancel:before {
+    content: "\e90e";
+}
+.icon-cancel2:before {
+    content: "\e90f";
+}
+.icon-trashcan:before {
+    content: "\e910";
+}
+.icon-washingmachine:before {
+    content: "\e911";
+}
+.icon-lamp:before {
+    content: "\e912";
+    font-family: "icomoon";
+    font-size: 4rem;
+}
+.icon-safe:before {
+    content: "\e913";
+}
+
+
+/*Elements==============================*/
+header{
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+}
+
+h1{
+	font-family: "Quicksand", helvetica, arial, sans-serif;
+	font-size: 3rem;
+	font-weight: 400;
+	}
+p{
+	font-family: "Open Sans", helvetica, arial, sans-serif;
+}
+.quote h1{
+	font-family: "Quicksand", helvetica, arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 400;
+	margin-top: 8rem;
+}
+.quote h2{
+	font-family: "Quicksand", helvetica, arial, sans-serif;
+	font-size: 2.5rem;
+	font-weight: 400;
+	line-height: 0;
+}
+.quote p{
+	font-family: "Lato", helvetica, arial, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+nav ul li{
+	list-style-type: none;
+	padding: 1rem;
+	margin-right: 1rem;
+	margin-top: 0;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2rem;
+	font-family: "Lato", helvetica, arial, sans-serif;
+
+}
+
+.details div a{
+	text-decoration: none;
+	color: white;
+	margin-right: .5rem;
+
+}
+body{
+	margin: 0;
+}
+
+form div h3{
+
+padding:0.5rem;
+font-size: 1.3rem;
+font-family: "Lato", helvetica, arial, sans-serif;
+font-weight: 400;
+color: white;
+}
+form{
+padding-bottom: .5rem;
+}
+
+h3{
+margin:0;
+padding:3rem;
+text-align:left;
+}
+
+button{
+background-color:#000000;
+color:white;
+width: 200px;
+height:60px;
+border: #000000;
+font-size: 1.3rem;
+padding: 1rem;
+/*margin-bottom: .5rem;*/
+}
+
+footer{
+	padding: 2rem;
+	text-align: center;
+	background-color: #2f2e2e;
+	color: white;
+}
+/*Classes and IDs==============================*/
+.main{
+	background-image: url("images/hotel-1330850_1920.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+
+}
+.quote{
+	text-align: center;
+}
+.search-room{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	
+}
+.search-room div{
+	padding-top: 0;
+}
+#srch{
+	display: flex;
+	align-items: flex-end;
+
+}
+.checkin{
+	margin-top: 18rem;
+	padding: 1rem;
+	background-color: rgba(0,0,0,0.5);
+	width:65%;
+	margin-bottom: 1rem;
+
+}
+
+.hidden{
+
+	font-size: 0;
+}
+
+
+.search-room input[type="number"]{
+width: 100px;
+height: 30px;
+font-size: 1.2rem;
+}
+
+.search-room input[type="date"], input[type="text"]{
+width: 220px;
+height: 30px;
+font-size: 1.2rem;
+}
+
+#srch input[type="submit"]{
+background-color:#bc9364;
+color:white;
+width: 140px;
+height:37px;
+border: #bc9364;
+font-size: 1.2rem;
+padding: 5px;
+/*margin-bottom: .5rem;*/
+}
+
+.services{
+	padding: 2rem;
+	display: flex;
+	flex-direction:column;
+	background-color: #2f2e2e;
+	color: white;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	align-items: space-between;
+}
+
+.services h2{
+	font-family: "Quicksand", helvetica, arial, sans-serif;
+	font-size: 3rem;
+	font-weight: lighter;
+}
+
+.services h3{
+	font-size: 1.3rem;
+	font-family: "Quicksand", helvetica, arial, sans-serif;
+	font-weight: lighter;
+}
+
+.classification{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-around;
+	margin-top: 2.6rem;
+}
+.next-button{
+	margin-top: 0rem;
+}
+.vancouver{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	width: 70%;
+	margin-left: 15%;
+
+}
+
+.victoria{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	width: 70%;
+	margin-left: 15%;
+
+}
+
+.description{
+	flex-basis:40%;
+}
+
+.description button a{
+	text-decoration: none;
+	color: white;
+}
+
+.videos{
+	padding-top: 3rem;
+}
+
+.about{
+	width: 50%;
+	margin-left: 25%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	display: flex;
+	flex-direction:column;
+}
+.about div{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.about h1{
+	margin-bottom: 0;
+}
+.about div p{
+	padding-right: 2rem;
+	font-size: 18px;
+}
+.about div img{
+	padding-top: 1rem;
+}
+.details{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	font-size: 1.3rem;
+	font-family: "Lato", helvetica, arial, sans-serif;
+	font-weight: lighter;
+	margin-bottom: 2rem;
+}
+
+.details h3{
+	font-size: 1.3rem;
+	font-family: "Quicksand", helvetica, arial, sans-serif;
+
+}
+
+.details p{
+	margin-top: 0;
+}
+
+.details input[type="submit"] {
+	margin-left: .5rem;
+background-color:#ffffff;
+color:black;
+width:130px;
+height:37px;
+border: #ffffff;
+font-size: 1.2rem;
+}
+
+
+
+
+/*harsh css*/
+.harsh1{
+	background-color: #fff;
+	width: 100%;
+	margin-top: 40%;
+	height: 20%;
+}
+
+/*.vancouver{
+
+	background-image: url("images/hotel-1330850_1920.jpg");
+	background-size: cover;
+	height: 40vh;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+
+}*/
+
+
+.main1{
+	background-image: url("images/london-1335477_1920.jpg");
+	background-size: cover;
+	height: 50vh;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+
+}
+.main2{
+	background-image: url("images/vancouver-754200_1920.jpg");
+	background-size: cover;
+	height: 50vh;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+
+}
+
+/*Media Screen=========================*/
+
+@media screen and (max-width: 1600px){
+
+.checkin{
+	width:90%;
+}
+
+.about{
+	width: 70%;
+	margin-left: 15%;
+}
+}
+
+@media screen and (max-width: 1150px){
+
+.checkin{
+	width:100%;
+}
+
+.about{
+	width: 90%;
+	margin-left: 5%;
+}
+
+.search-room input[type="number"]{
+width: 80px;
+}
+
+.search-room input[type="date"], input[type="text"]{
+width: 150px;
+}
+}
+
+@media screen and (max-width: 850px){
+
+	.checkin{
+		margin-top: 2rem;
+		width: 80%;
+	}
+
+	.search-room{
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	
+	}
+	.about div{
+	display: flex;
+	flex-direction:column-reverse;
+	}
+
+.vancouver{
+	display: flex;
+	flex-direction: column-reverse;
+	width: 90%;
+	margin-left: 5%;
+
+}
+
+.victoria{
+	display: flex;
+	flex-direction: column-reverse;
+	width: 90%;
+	margin-left: 5%;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries==============================*/
+/*==============================
