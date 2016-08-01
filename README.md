@@ -3,7 +3,9 @@
 Platform & Language Used:
 
 Platform: Flask
+
 Scripting Language: Python
+
 Database: SQLalchemy 
 
 We have used Python as our back-end where there is a functioning of filling out form for the home booking. The
