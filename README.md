@@ -12,7 +12,7 @@ We have used Python as our back-end where there is a functioning of filling out 
 data is getting stored successfully and SQLite Browser can be used to see the data in the database.
 
 When we go on the page of Home List for booking i.e. on Vancouver or Victoria then on click of "Book Now" button.
-We get the form for filling out hte details and there the whole functioning is done by using python.
+We get the form for filling out the details and over there the whole functioning is done by using python.
 
 There is also a functioning of mail sending to the entered mail in the form. The mail is for the confirmation
 that the payment has been done successfully.
